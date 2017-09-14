@@ -1,0 +1,5 @@
+*.h linguist-language=C++
+
+*.make linguist-vendored
+Makefile linguist-vendored
+*.qbs linguist-vendored
