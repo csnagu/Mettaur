@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 
-#include "ball.h"
+#include "fireworks.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,7 +23,5 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-    // float xPos;
-    // float yPos;
-    Ball theBall;               // 位置情報はtheBallオブジェクトが保持する
+    Fireworks fw;
 };
