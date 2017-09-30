@@ -24,4 +24,8 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 
     Fireworks fw;
+
+    ofBoxPrimitive box;
+    ofSpherePrimitive sphere;
+    ofEasyCam cam;              // ガメラ
 };
